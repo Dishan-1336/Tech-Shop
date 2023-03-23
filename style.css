@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courgette', cursive;
+}
+
+.header{
+    display: flex;
+    color: white;
+    background-color: rgb(56, 59, 62);
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.header input[type=text] {
+    padding: 8px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+
+.header .search-container button {
+    float: right;
+    padding: 8px 10px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header .search-container button:hover {
+    background: #ccc;
+  }
+
+
+  .product-tag{
+    text-align: center;
+    margin: 10px;
+  }
+
+  hr{
+    width: 400px;
+    margin: auto;
+  }
+  /* ----- Section-1 ----- */
+
+  .section-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .section-1 .products {
+    height: 400px;
+    width: 230px;
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgb(210, 204, 204);
+  }
+
+  .section-1 .products:hover{
+    box-shadow: 3px 3px 3px 3px rgb(132, 127, 127);
+  }
+  
+  .section-1 .images {
+    height: 150px;
+    width: 200px;
+  }
+
+  .section-1 button {
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 0px 15px;
+    margin-top: 5px;
+    height: 40px;
+    width: 50 px;
+    cursor: pointer;
+  }
+
+  .section-1 .add-to-cart{
+    background-color: green;
+    margin-left: 30px;
+  }
+
+  .section-1 .add-to-cart:hover{
+    background-color: rgb(3, 159, 3);
+  }
+
+  .section-1 .remove-from-cart{
+    background-color: rgb(223, 2, 2);
+  }
+
+  .section-1 .remove-from-cart:hover{
+    background-color: rgb(255, 0, 0);
+  }
+
+  .section-1 .counter {
+    padding: 0px 15px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: black;
+    height: 35px;
+    width: 30px;
+    text-align: center;
+  }
+
+  /* --- Section-2 --- */
+
+  .section-2 .purchase{
+    height: 60px;
+    width: 130px;
+    border-radius: 5px;
+    font-weight: 900;
+    margin-left: 47%;
+    margin-bottom: 20px;
+    background-color: rgb(56, 59, 62);
+    color: white;
+    cursor: pointer;
+    font-size: 23px;
+  }
+
+  .section-2 .purchase:hover{
+    height: 62px;
+    width: 132px;
+    background-color: rgb(44, 46, 48);
+    font-size: 24px;
+  }
+
+  .info{
+    width: 300px;
+    margin: auto;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .info input{
+    margin: 10px 0px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+  }
+
+  .info .address{
+    margin: 10px 0px;
+    height: 30px;
+    width: 142px;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .info button{
+    font-size: 20px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgb(120, 70, 186);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
